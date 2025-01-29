@@ -27,13 +27,13 @@ function atualizarAmigo() {
 // Função usada para sortiar um nome da lista de amigos
 function sortearAmigo() {
     if (amigos.length == 0) {
-        alert('Necesario adicionar os nomes ante de sortear!')
+        alert('Necesario adicionar os nomes ante de sortear!');
     } else {
-        let indiceAleatorio = Math.floor(Math.random() * amigos.length)
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length);
         let amigoSorteado = amigos[indiceAleatorio];
 
         let resultado = document.getElementById('resultado');
-        resultado.innerHTML = `Amigo sortiado foi ${amigoSorteado}`
+        resultado.innerHTML = `Amigo sortiado foi ${amigoSorteado}`;
     }
 
 }
